@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 
-image = Image.open('C:/Users/Lenovo/Desktop/minor/deploy/a1.jpg')
+image = Image.open('deploy/a1.jpg')
 # loading the saved models
 diabetes_model = pickle.load(open('C:/Users/Lenovo/Desktop/minor/deploy/model/diabetes_model.sav', 'rb'))
 heart_disease_model = pickle.load(open('C:/Users/Lenovo/Desktop/minor/deploy/model/heart_model.sav', 'rb'))
